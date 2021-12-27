@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio | Rohit Jaiswal | Developer | Lucknow</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="icon" type="image/ico" sizes="16x16" href="assets/img/favicon.ico/favicon.ico">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- ********** Font Awesome Kit ********** -->
+	<script src="https://kit.fontawesome.com/f33d17b021.js" crossorigin="anonymous"></script>
+
+	<script>
+		setTimeout(function(){ 
+			document.getElementById('preloader').style.display = 'none';
+			document.getElementById('container').style.display = 'block';
+		}, 3000);
+	</script>
+</head>
+<body id="body">
+
+	<div class="preloader" id="preloader">
+		<img src="assets/img/preloader.gif" alt="">
+		<p>Loading...</p>
+	</div>
+
+	<div class="container" id="container">
+		<header>
+			<div class="brand-container" id="brand-container">
+				<span class="hamburger">
+					<i class="fas fa-bars"></i>
+				</span>
+				<span class="brand-name">
+					<a href="index.html"><h1 id="brand-name">Rohit Jaiswal</h1></a>
+				</span>
+				<span class="dark-mode-toggler-mob">
+					<i class="fas fa-adjust" onclick="darkModeOn()"></i>
+				</span>
+			</div>
+			<nav>
+				<ul id="nav-items">
+					<a href="#"><li>home</li></a>
+					<a href="#"><li>about</li></a>
+					<a href="#"><li>projects</li></a>
+					<a href="#"><li>services</li></a>
+					<a href="#"><li>contact</li></a>
+					<li><i class="fas fa-adjust" onclick="darkModeOn()"></i></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="fixed-icons">
+			<a href="#"><i class="fab fa-linkedin-in"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-github"></i></a>
+
+		</div>
+
+		<main class="hero-section">
+			<div class="hero-text">
+				<h2>Hi,  I'm Rohit</h2>
+				<small>Web Developer</small>
+				<p>High level experience in design and development. Crafts for web and mobile platforms as well. </p>
+				<button>Know More <i class="far fa-paper-plane"></i></button>
+				<span>
+					<i class="fas fa-mouse"></i>
+					Scroll Down
+					<i class="fas fa-caret-down"></i>	
+				</span>
+
+				<div class="rotating-box"></div>
+				<div class="rotating-box-2"></div>
+			</div>
+			<div class="hero-img">
+				<img src="assets/img/hero-img.png" alt="hero-img">
+			</div>
+		</main>
+
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#8F44FD" fill-opacity="1" d="M0,192L60,208C120,224,240,256,360,250.7C480,245,600,203,720,160C840,117,960,75,1080,64C1200,53,1320,75,1380,85.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+		</svg>
+		
+	</div>
+
+
+	<script src="js/script.js"></script>
+	
+</body>
+</html>
